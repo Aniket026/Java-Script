@@ -1,0 +1,11 @@
+let a=99;
+let p;
+const author="aniket";
+console.log(author)
+a="d";
+let c= null
+var va=99;
+va="ll"
+console.log(a);
+console.log(va);
+console.log(a);
