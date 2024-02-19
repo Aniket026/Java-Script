@@ -1,0 +1,7 @@
+const item={
+    "aniket":true,
+    "rahul":22
+
+}
+console.log(item["rahul"])
+console.log(item["aniket"])
