@@ -1,0 +1,7 @@
+console.log("hallo")
+let a="herry";
+console.log(a)
+a=44;
+console.log(a)
+a="herry";
+console.log(a)
