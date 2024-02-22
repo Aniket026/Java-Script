@@ -1,0 +1,48 @@
+let a=3;
+let b=9;
+console.log("Arithmatic operator")
+console.log(a+b)
+console.log(a-b)
+console.log(a/b)
+console.log(a%b)
+console.log(a*b)
+console.log(a**b)
+console.log(a++)
+console.log(a)
+console.log(a--)
+console.log(a)
+
+console.log("Assignment operator")
+let d=3
+d+=4
+console.log(d)
+d-=4
+console.log(d)
+d*=4
+console.log(d)
+d/=4
+console.log(d)
+d%=4
+console.log(d)
+
+console.log("comparison operator")
+let num1=8
+let num2=8
+let num3=7
+let num4="7"
+console.log("num1==num2",num1==num2)
+console.log("num1!=num2",num1!=num2)
+console.log("num3===num4",num3===num4)
+console.log("num3==num4",num3!==num4)
+
+console.log("logical operator")
+let g=2
+let j=5
+console.log(g>8 && j>8)
+console.log(g>1 && j>3)
+console.log(g>8 || j>8)
+console.log(g>1 || j>9)
+console.log(!true)
+
+
+
