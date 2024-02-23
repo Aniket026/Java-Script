@@ -1,0 +1,14 @@
+function add(a,b){
+    return (a*b)
+}
+let x =prompt("Enter the value of x:");
+let v=prompt("Enter the value of v")
+x=Number.parseInt(x);
+v=Number.parseInt(v)
+
+
+const mul=(n,m)=>{
+    return n*m
+}
+mul(x,v)
+add(x,v)
