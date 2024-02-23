@@ -1,0 +1,38 @@
+/*let student={
+    Aniket:98,
+    Rushi:89,
+    Akash:90,
+    Yashraj :79
+}
+for(let i=0;i<Object.keys(student).length;i++){
+  console.log(Object.keys(student)[i]+ "  "+student[Object.keys(student)[i]])  
+}
+for(key in student){
+    console.log(key+" "+student[key])
+}
+*/
+/*
+var num1;
+let num2=8;
+while (num1!=num2) 
+{
+     num1=prompt("Enter the number :")
+    
+}
+*/
+/*
+const mean=(a,s,d,f,g)=>{
+    return (a+s+d+f+g)/5
+}
+let z=prompt("Enter 1 number :")
+let x=prompt("Enter 2 number :")
+let c=prompt("Enter 3 number :")
+let v=prompt("Enter 4 number :")
+let b=prompt("Enter 5 number :")
+z=Number.parseInt(z)
+x=Number.parseInt(x)
+c=Number.parseInt(c)
+v=Number.parseInt(v)
+b=Number.parseInt(b)
+mean(z,x,c,v,b)
+*/
