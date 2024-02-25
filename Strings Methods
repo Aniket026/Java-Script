@@ -1,0 +1,34 @@
+let name="Aniket"
+
+console.log(name.length)
+
+console.log(name.toUpperCase())
+
+console.log(name.toLowerCase())
+
+console.log(name[3])
+
+console.log(name.slice(2,4))
+
+console.log(name.replace("Ani","kni"))
+
+let name2="Borawake";
+
+console.log(name.concat(" is my sir name",name2))
+
+let name3="   yash   "
+
+console.log(name3)
+
+console.log(name3.trim())
+
+let text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+let length = text.length;
+console.log(length)
+
+for( let i=0;i<name.length;i++)
+    {
+       
+        console.log(name[i])
+        
+    }
