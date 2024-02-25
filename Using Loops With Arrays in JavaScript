@@ -1,0 +1,22 @@
+let num=[1,2,3,45]
+for(let i=0;i<num.lenght;i++)
+{
+console.log(num[i])
+}
+
+num.forEach((element)=>{
+console.log(element*element)
+})
+
+let a="aniket"
+let d=Array.from(a)
+console.log(d);
+
+for(let i in num)
+{
+console.log(num[i])
+}
+for(let key of num)
+{
+console.log(num[key])
+}
