@@ -1,0 +1,13 @@
+let array=[23,56,7,"Aniket",true]
+console.log(array[0])
+console.log(array[1])
+console.log(array[2])
+console.log(array[3])
+console.log(array[4])
+array[1]=44
+console.log(typeof array)
+for(let i=0;i<4;i++)
+{
+    console.log(array[i])
+               
+}
