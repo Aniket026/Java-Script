@@ -1,0 +1,50 @@
+let array=[2,4,56,7,"aniket"]
+let b=array.toString()
+console.log(b)
+let c=array.join(" and ")
+console.log(c)
+array.pop()
+console.log(array)
+
+array.push(44)
+console.log(array)
+
+array.shift()
+console.log(array)
+
+array.unshift("Ani")
+console.log(array)
+
+let array2=[1,2,3,4,5,6,7,8,9,]
+let array3=[10,11,12,13]
+let array4=[334,567,4333,33,4,5,78,2,34,1,455,78,43,3]
+
+delete array2[2]
+console.log(array2)
+let newarray=array2.concat(array3,array4)
+console.log(newarray)
+
+
+
+array4.sort()
+console.log(array4)
+
+let compare =(a,b)=>{
+    return a-b;
+}
+
+let compare1 =(a,b)=>{
+    return b-a;
+}
+array4.sort(compare)
+console.log(array4)
+array4.sort(compare1)
+console.log(array4)
+
+
+array.reverse
+console.log(array)
+
+let array6=[1,2,3,4,5,9,66]
+let s=array6.splice(2,3,666,777,888)
+console.log(s)
