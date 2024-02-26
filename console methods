@@ -1,0 +1,26 @@
+console.error("this is error")
+
+console.assert(5<3)
+
+//console.clear()
+
+let a={a:4,b:5,c:6}
+
+console.table(a)
+
+console.warn("dont do this")
+
+console.info("this is important information")
+
+function foo() {
+  function bar() {
+    console.trace();
+  }
+  bar();
+}
+
+foo();
+
+console.time("a")
+
+console.timeEnd("a")
