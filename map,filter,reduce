@@ -1,0 +1,26 @@
+let array=[12,34,55]
+array.map((value)=>{
+    console.log(value)
+})
+
+let array1=[12,34,55]
+array1.map((value,index)=>{
+    console.log(value,index)
+})
+
+let array2=[12,34,55]
+array2.map((value,index,array)=>{
+    console.log(value,index,array)
+})
+
+
+
+let array4=[12,11,34,55]
+array4.filter((value)=>{
+    return value<20
+    
+})
+let array1=[12,34,55]
+array1.reduce((value,value2)=>{
+  return value+value2
+})
