@@ -1,0 +1,12 @@
+console.time("while")
+    let array=[2,3,4];
+let input;
+do{
+   input=prompt("inter the array number")
+
+    input=Number.parseInt(input)
+    array.push(input)
+    console.log(array)
+}while(input!=0);
+console.log(array)
+console.timeEnd("while")
