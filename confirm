@@ -1,0 +1,22 @@
+
+alert("Hello! I am an alert box!!");
+
+alert("Enter the value ");
+
+let a=prompt("Enter the value")
+
+console.log(typeof a)
+
+let write=confirm("do youwant to write")
+if(write)
+{
+    document.write(a)
+}
+else{
+    document.write("please allow me to")
+}
+a=Number.parseInt(a)
+
+console.log(typeof a)
+
+let b=prompt("youer value is",a)
