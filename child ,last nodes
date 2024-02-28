@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript" src="first.js"></script>
+	
+ <p>this is me</p>
+</body>
+</html>
+
+
+
+
+console.log(document.body.firstChild)
+
+console.log(document.body.lastChild)
+
+let arr =Array.from(document.body.lastChild)
+console.log(arr)
