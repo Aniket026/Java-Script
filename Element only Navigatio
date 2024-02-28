@@ -1,0 +1,54 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Home</title>
+</head>
+<body><!-- Aniket-->
+	<script type="text/javascript" src="first.js"></script>
+
+<nav>
+	<ul><li>home</li>
+		<li>about me</li>
+		<li>space</li>
+	</ul>
+</nav>
+ <p>this is me</p>
+ <div>
+ 	<h1>Aniket</h1>
+ </div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const changebody=()=>{
+	document.body.firstElementChild.style.background="pink"
+	
+}
+b=document.body
+console.log("First child of B",b.firstChild)
+
+console.log("First element of B",b.firstElementChild)
