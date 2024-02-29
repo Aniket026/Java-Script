@@ -1,0 +1,18 @@
+let user = prompt("Enter your choice: S, P, or C");
+let cpuIndex = Math.floor(Math.random() * 3);
+let cpu = ["S", "P", "C"][cpuIndex];
+
+const match = (cpu, user) => {
+    if (cpu === user) {
+        return "It's a tie!";
+    } else if ((cpu === "S" && user === "P") || 
+               (cpu === "P" && user === "C") || 
+               (cpu === "C" && user === "S")) {
+        return "CPU wins!";
+    } else {
+        return "User wins!";
+    }
+};
+
+let result = match(cpu, user.toUpperCase());
+console.log("Winner is: " + result);
