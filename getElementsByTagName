@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Home</title>
+  <style type="text/css">
+    nav{
+      display: flex;
+      background: cyan;
+    }
+
+    nav li{
+      list-style: none;
+      padding:  0 23px;
+    }
+  </style>
+<!--	<script type="text/javascript" src="first.js"></script> -->
+</head>
+<body>
+  <nav id ="21">
+    <li>home</li>
+    <li>about us</li>
+    <li>back</li>
+  </nav>
+  <h1 id="1">ibcdcjin</h1>
+<table id ="13">
+  <tr >
+    <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+  </tr>
+</table>
+
+
+ <p>this is me</p>
+ <div>
+
+ 	<h1 id="2">Aniket</h1>
+ </div>
+back
+<img src="https://img.freepik.com/free-photo/beautiful-scenery-summit-mount-everest-covered-with-snow-white-clouds_181624-21317.jpg?w=996&t=st=1709171315~exp=1709171915~hmac=3b1a17aac29656bf8935dc89e1d9e7797e7318c2fd574245bb96cc9a7c7f4340">
+<script >
+document.getElementsByTagName("nav")[0].firstElementChild.style.color="pink"
+
+document.getElementsByTagName("nav")[0].firstElementChild.style.color="pink"
+document.getElementsByTagName("nav")[0].lastElementChild.style.color="green"
+Array.from(document.getElementsByTagName("li")).forEach((element)=>{
+  element.style.background="red"
+})
+
+</script>
+</body>
+</html>
