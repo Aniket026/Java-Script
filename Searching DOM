@@ -1,0 +1,5 @@
+let s=document.getElementsByClassName("12")
+ s.style.color="red"
+let a=document.getElementById("1")
+ a.style.color="blue"
+ document.querySelector(".12").style.color="red"
