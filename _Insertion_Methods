@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  I am start of this container (outer)
+  <div class="container">
+    I am start of this container (inner)
+    <div id="first">I am the first element</div>
+    I am end of this container (inner)
+  </div>
+  I am end of this container (outer)
+  <script src="script.js"></script>
+
+
+  <script src="first.js" theme="blue" defer></script>
+</body>
+
+</html>
+let a = document.getElementsByTagName('div')[0]
+
+// a.innerHTML = a.innerHTML + '<h1>Hello World!</h1>';
+
+let div = document.createElement('div');
+div.innerHTML = '<h1>Hello World!</h1>';
+// a.append(div);
+// a.prepend(div);
+// a.before(div);
+// a.after(div);
+// a.replaceWith(div);
