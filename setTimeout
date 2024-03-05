@@ -1,0 +1,15 @@
+ 
+
+const sum=(a,b)=>{
+    console.log("addition is "+(a+b));
+}
+setTimeout(sum,5000,3,4)
+let a=setTimeout(function(){
+    alert("hello")
+},5000)
+let b=prompt("Enetr y OR N :")
+if("n"==b)
+{
+   clearTimeout(a)
+}
+console.log(a)
