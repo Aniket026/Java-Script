@@ -1,0 +1,10 @@
+
+let a=setInterval(function(){
+    alert("hello")
+},2000)
+let b=prompt("Enetr y OR N :")
+if("n"==b)
+{
+   clearTimeout(a)
+}
+console.log(a)
